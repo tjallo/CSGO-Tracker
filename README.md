@@ -1,5 +1,11 @@
 
 # CSGO 
+
+
+**Currently only tested with Stickers and Weapons.**
+
+
+
 Easy tracker for items you have bought as an investment and see the profits you hae made
 
 ## How to Use
