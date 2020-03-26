@@ -1,3 +1,4 @@
+# ['condition', 'item as in steam store', 'price you have paid']
 items = [
     ["", "Sticker | chrisJ | Berlin 2019", 0.07],
     ["Battle-Scarred", "StatTrak™ M4A1-S | Flashback", 2.59],
