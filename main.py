@@ -22,10 +22,14 @@ for i, item in enumerate(mb.items):
     results.append([post['lowest_price'][:-1].replace(',', '.'), item[1] + " " + item[0], item[2]])
 
 totalProfit = 0
+investment = 0
 
 for item in results:
     profit = round(float(item[0]) - float(item[2]), 2)
+    investment += float(item[2])
     print(f"You have made €{profit} on {item[1]}, current price is {round(float(item[0]), 2)}")
     totalProfit += profit
 
+print(f"Your total investment was: {investment}")
 print(f"Your total profit is €{round(totalProfit,2)}")
+print(f"That means you have a ROI of {round(profit / investment * 100, 1)}%")
