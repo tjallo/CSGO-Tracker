@@ -30,6 +30,6 @@ for item in results:
     print(f"You have made €{profit} on {item[1]}, current price is {round(float(item[0]), 2)}")
     totalProfit += profit
 
-print(f"Your total investment was: {investment}")
+print(f"Your total investment was: €{investment}")
 print(f"Your total profit is €{round(totalProfit,2)}")
 print(f"That means you have a ROI of {round(profit / investment * 100, 1)}%")
